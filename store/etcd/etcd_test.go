@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
-	"github.com/docker/libkv/testutils"
+	"github.com/demonoid81/libkv"
+	"github.com/demonoid81/libkv/store"
+	"github.com/demonoid81/libkv/testutils"
 	"github.com/stretchr/testify/assert"
 )
 

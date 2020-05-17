@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
-	bolt "go.etcd.io/bbolt"
+	"github.com/demonoid81/libkv"
+	"github.com/demonoid81/libkv/store"
+	bolt "github.com/coreos/bbolt"
 )
 
 var (
